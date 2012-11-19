@@ -1,0 +1,4 @@
+amos.install
+============
+
+install AMOS
