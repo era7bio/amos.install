@@ -18,7 +18,7 @@ yum -y install make gcc zlib zlib-devel zlib-static boost boost-devel \
 # install cpanm
 curl -L http://cpanmin.us | perl - App::cpanminus
 # add perl mods
-cpanm Statistics::Descriptive DBI
+/usr/local/bin/cpanm Statistics::Descriptive DBI
 
 # configure AMOS
 ./configure --prefix=/opt/amos-3.1.0
